@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iap3.0自动化" thread-count="1" parallel="methods">  
+	<test name="登录和菜单等基本操作" preserve-order="true">
+		<classes>
+		   <class name="pu.hui.httpTest.AllTestMethods" />
+		   <!-- <class name="com.asiainfo.testScript.TestLogin" /> -->
+		</classes>
+	</test>
+</suite>
